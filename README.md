@@ -11,6 +11,11 @@
 | `docs/img/preview_2d.png` | попередній перегляд розташування написів |
 | `gen_stl.py` | контрольна 3D-модель: ті самі Extrude / Union / Subtract у коді (manifold3d) → `stl/digit8.stl`, перевірка замкненості сітки |
 | `stl/digit8.stl` | STL 100 × 140 × 12 мм, ≈ 81 см³ |
+| `cad/acad_build.lsp` | AutoCAD: команди `APKS2D` (REGION) і `APKS3D` (EXTRUDE / UNION / SUBTRACT, MASSPROP) для `dxf/digit8_full.dxf` |
+| `cad/digit8_autocad.dwg`, `stl/digit8_autocad.stl` | модель AutoCAD 2027: 81 054.76 мм³ |
+| `cad/fusion_build/` | Fusion: скрипт (Scripts and Add-Ins) — Insert DXF + Extrude New Body / Join / Cut у timeline |
+| `stl/digit8_fusion.stl` | модель Fusion: 80 475.6 мм³ (острівці О, Р, В у наскрізному «ІГОРОВИЧ» випадають) |
+| `docs/img/acad_2d.png`, `acad_3d.png`, `fusion_model.png` | скріни AutoCAD і Fusion |
 | `docs/img/cura_*.png` | Cura: налаштування (UltiMaker S5, 0.2 мм, 20 %, Brim) → 2 год 37 хв, 50 г; пошаровий перегляд |
 
 Прізвище — опуклий текст, ім'я — увігнутий, по батькові — наскрізний.
